@@ -1,0 +1,25 @@
+/* 선택자(selecter) */
+/* Cascading Style Sheet */
+div#tab {
+    display: none;
+}
+div#header-center {
+    margin: 0 auto; 
+    width: 1080px;  
+}
+div#header-search > h1 {
+    width: 222px;
+    height: 52px;
+    display: inline-block;
+    /* 자식 선택자 */
+} 
+div#header-search > fieldset {
+    width: 586px;
+    height: 52px;
+    display: inline-block;
+}
+/*
+#header-center h1 {
+    자손 선택자 > 가 없쥬?
+}
+*/

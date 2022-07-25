@@ -6,60 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
     <title>naver.com</title>
+    <link rel="stylesheet" href="./naver.css">
 </head>
 <body>
-    <div>
+    <div id="tab">
         <a href="">뉴스스탠드 바로가기</a>
         <a href="">주제별캐스트 바로가기</a>
         <a href="">타임스퀘어 바로가기</a>
         <a href="">쇼핑캐스트 바로가기</a>
         <a href="">로그인 바로가기</a>
     </div>
-    <h1><a href="">네이버</a></h1>
-    <div>
-        <a href="">네이버를 시작페이지로</a>
-        <a href="">쥬니어네이버</a>
-        <a href="">해피빈</a>
-    </div>
-    <fieldset>
-        <legend>검색</legend>
-    <select name="where" title="검색 범위 선택">
-        <option value="nexearch" selected="selected">통합검색</option>
-        <option>블로그</option>
-    </select>
-    <div>
-        <input type="text" placeholder="검색어를 입력해 주세요." />
-    </div>
-    <button>검색</button>
-    </fieldset>
-    <div>
-        <a href="">한글 입력기</a><br>
-        <a href="">자동완성 레이어</a>
-    </div>
-    <ul> <!-- unordered list -->
-        <li><a href="">메일</a></li> <!-- list item -->
-        <li><a href="">카페</a></li>
-        <li><a href="">블로그</a></li>
-        <li><a href="">지식iN</a></li>
-        <li><a href="">쇼핑</a></li>
-        <li><a href="">쇼핑LIVE</a></li>
-        <li><a href="">Pay</a></li>
-        <li><a href="">TV</a></li>
-    </ul>
-    <ul>
-        <li><a href="">사전</a></li>
-        <li><a href="">뉴스</a></li>
-        <li><a href="">증권</a></li>
-        <li><a href="">부동산</a></li>
-        <li><a href="">지도</a></li>
-        <li><a href="">VIBE</a></li>
-        <li><a href="">도서</a></li>
-        <li><a href="">웹툰</a></li>
-    </ul>
-    <div>
-        <a href="">더보기</a><br>
-        <a href="">서비스 전체보기</a> 
-        <a href="">메뉴설정</a>
+    <header>
+        <div id="header-center">
+            <div>
+                <span><a href="">네이버를 시작페이지로</a></span>
+                <span><a href="">쥬니어네이버</a></span>
+                <span><a href="">해피빈</a></span>
+            </div>
+            <div id="header-search">
+                <h1><a href="">네이버</a></h1>
+                <fieldset>
+                    <legend>검색</legend>
+                <select name="where" title="검색 범위 선택">
+                    <option value="nexearch" selected="selected">통합검색</option>
+                    <option>블로그</option>
+                </select>
+            </div>
+            <div>
+                <input type="text" placeholder="검색어를 입력해 주세요." />
+            </div>
+            <button>검색</button>
+            </fieldset>
+        </div>
+        <div>
+            <a href="">한글 입력기</a><br>
+            <a href="">자동완성 레이어</a>
+        </div>
+    </header>
+    <nav>
+        <ul> <!-- unordered list -->
+            <li><a href="">메일</a></li> <!-- list item -->
+            <li><a href="">카페</a></li>
+            <li><a href="">블로그</a></li>
+            <li><a href="">지식iN</a></li>
+            <li><a href="">쇼핑</a></li>
+            <li><a href="">쇼핑LIVE</a></li>
+            <li><a href="">Pay</a></li>
+            <li><a href="">TV</a></li>
+        </ul>
+        <ul>
+            <li><a href="">사전</a></li>
+            <li><a href="">뉴스</a></li>
+            <li><a href="">증권</a></li>
+            <li><a href="">부동산</a></li>
+            <li><a href="">지도</a></li>
+            <li><a href="">VIBE</a></li>
+            <li><a href="">도서</a></li>
+            <li><a href="">웹툰</a></li>
+        </ul>
+        <div>
+            <a href="">더보기</a><br>
+            <a href="">서비스 전체보기</a> 
+            <a href="">메뉴설정</a>
+        </div>
     </div>
     <div>
         <dl>
@@ -131,117 +140,125 @@
             <dd><a href="">한자사전</a></dd>
             <dd><a href="">사전 더보기</a></dd>
         </dl>
-    </div>
-    <h2>뉴스스탠드</h2>
-    <div>
-        <div><a href="">연합뉴스</a></div>
+    </nav>
+    <main>
+        <h2>뉴스스탠드</h2>
         <div>
-            <a href="">뉴스홈</a>
-            <a href="">연예</a>
-            <a href="">스포츠</a>
-            <a href="">경제</a>
-        </div>
-        <div>
-            <div><a href="">뉴스스탠드</a></div>
+            <div><a href="">연합뉴스</a></div>
             <div>
-                <a href="">구독한 언론사</a>
-                <a href="">전체언론사</a>
+                <a href="">뉴스홈</a>
+                <a href="">연예</a>
+                <a href="">스포츠</a>
+                <a href="">경제</a>
             </div>
             <div>
-                <a href="">리스트형</a>
-                <a href="">썸네일형</a>
-                <a href="">설정</a>
-            </div>
-            <div><a href="">이전</a></div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/030.png" alt="">
-            <div>
-                <a href="">구독</a>
-                <a href="">기사보기</a>
+                <div><a href="">뉴스스탠드</a></div>
+                <div>
+                    <a href="">구독한 언론사</a>
+                    <a href="">전체언론사</a>
+                </div>
+                <div>
+                    <a href="">리스트형</a>
+                    <a href="">썸네일형</a>
+                    <a href="">설정</a>
+                </div>
+                <div><a href="">이전</a></div>
             </div>
         </div>
         <div>
-            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/092.png" alt="">
             <div>
-                <a href="">구독</a>
-                <a href="">기사보기</a>
+                <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/030.png" alt="전자신문">
+                <div>
+                    <a href="">구독</a>
+                    <a href="">기사보기</a>
+                </div>
             </div>
+            <div>
+                <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/092.png" alt="ZD Net Korea">
+                <div>
+                    <a href="">구독</a>
+                    <a href="">기사보기</a>
+                </div>
+            </div>
+            <div>
+                <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/009.png" alt="매일경제">
+                <div>
+                    <a href="">구독</a>
+                    <a href="">기사보기</a>
+                </div>
+            </div>
+            <div>
+                <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/020.png" alt="동아일보">
+                <div>
+                    <a href="">구독</a>
+                    <a href="">기사보기</a>
+                </div>
+            </div>
+            <div>
+                <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/293.png" alt="BLOTER">
+                <div>
+                    <a href="">구독</a>
+                    <a href="">기사보기</a>
+                </div>
+            </div>
+            <div>
+                <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/052.png" alt="YTN">
+                <div>
+                    <a href="">구독</a>
+                    <a href="">기사보기</a>
+                </div>
+            </div>
+            <div>
+                <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/356.png" alt="GameMeca">
+                <div>
+                    <a href="">구독</a>
+                    <a href="">기사보기</a>
+                </div>
+            </div>
+            <div>
+                <img src="https://s.pstatic.net/static/newsstand/up/2022/0328/nsd223244325.png" alt="스포츠투데이">
+                <div>
+                    <a href="">구독</a>
+                    <a href="">기사보기</a>
+                </div>
+            </div>
+            <div>
+                <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/981.png" alt="TBS">
+                <div>
+                    <a href="">구독</a>
+                    <a href="">기사보기</a>
+                </div>
+            </div>
+            <div>
+                <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/989.png" alt="TBC">
+                <div>
+                    <a href="">구독</a>
+                    <a href="">기사보기</a>
+                </div>
+            </div>
+            더 있는데 그만할래..
+        </div>
+        <h2>주제별 캐스트</h2>
+        <div>
+            <strong>오늘 읽을만한 글</strong>
+            주제별로 분류된 다양한 글 모음
         </div>
         <div>
-            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/009.png" alt="">
-            <div>
-                <a href="">구독</a>
-                <a href="">기사보기</a>
-            </div>
+            <strong>674</strong>
+            개의 글
+            <a href="">관심주제</a>
+            <a href="">설정</a>
         </div>
         <div>
-            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/020.png" alt="">
-            <div>
-                <a href="">구독</a>
-                <a href="">기사보기</a>
-            </div>
+            <a href="">이전</a>
         </div>
-        <div>
-            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/293.png" alt="">
-            <div>
-                <a href="">구독</a>
-                <a href="">기사보기</a>
-            </div>
-        </div>
-        <div>
-            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/052.png" alt="">
-            <div>
-                <a href="">구독</a>
-                <a href="">기사보기</a>
-            </div>
-        </div>
-        <div>
-            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/356.png" alt="">
-            <div>
-                <a href="">구독</a>
-                <a href="">기사보기</a>
-            </div>
-        </div>
-        <div>
-            <img src="https://s.pstatic.net/static/newsstand/up/2022/0328/nsd223244325.png" alt="">
-            <div>
-                <a href="">구독</a>
-                <a href="">기사보기</a>
-            </div>
-        </div>
-        <div>
-            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/981.png" alt="">
-            <div>
-                <a href="">구독</a>
-                <a href="">기사보기</a>
-            </div>
-        </div>
-        <div>
-            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/989.png" alt="">
-            <div>
-                <a href="">구독</a>
-                <a href="">기사보기</a>
-            </div>
-        </div>
-        더 있는데 그만할래..
-    </div>
-    <h2>주제별 캐스트</h2>
-    <div>
-        <strong>오늘 읽을만한 글</strong>
-        주제별로 분류된 다양한 글 모음
-    </div>
-    <div>
-        <strong>674</strong>
-        개의 글
-        <a href="">관심주제</a>
-        <a href="">설정</a>
-    </div>
-    <div>
-        <a href="">이전</a>
-    </div>
-    그 밑으로는 광고네용..
+        그 밑으로는 광고네용..
+        <img src="" alt="" >
+    </main>
+    <footer>
+        <div>공지사항</div>
+        <div>Creators</div>
+        <div>회사소개</div>
+    </footer>
 </body>
 </html>
